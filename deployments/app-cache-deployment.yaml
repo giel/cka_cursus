@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  creationTimestamp: null
   labels:
     app: app-cache
   name: app-cache
@@ -12,6 +13,7 @@ spec:
   strategy: {}
   template:
     metadata:
+      creationTimestamp: null
       labels:
         app: app-cache
     spec:
@@ -19,3 +21,4 @@ spec:
       - image: memcached:1.6.8
         name: memcached
         resources: {}
+status: {}
