@@ -23,9 +23,9 @@ switch namespace
 
 ## RBAC
 
-see [commands_rbac](./commands_rbac)
+see [commands_rbac](./commands_rbac.md)
 
 
 ## Deployments
 
-see [commands_deployments](./commands_deployments)
+see [commands_deployments](./commands_deployments.md)
