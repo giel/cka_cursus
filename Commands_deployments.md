@@ -18,3 +18,7 @@ Show the deploymen, pods where it runs, and replicasets
 Delete the deployment with this file
 
     k delete -f app-cache-deployment.yaml
+
+## Links
+
+- [Commands](./Commands.md)

@@ -40,4 +40,6 @@ command above does not work in k8s version: v1.26.1. Is below the replacement?
      k auth can-i -h
      k auth can-i create deployments --as johndoe
 
+## Links
 
+- [Commands](./Commands.md)
